@@ -1,13 +1,3 @@
 #!/bin/sh
 
-printError() {
-    error=$1
-    printf "\033[41m$error\033[0m \033[0;30m\033[41mFAILURE!\033[0m\n"
-}
-
-printSuccess() {
-    successMsg=$1
-    printf "\t\033[32m$1\033[0m \033[0;30m\033[42mpassed!\033[0m\n"
-}
-
 echo "executing pre push checking with args [$@]"
