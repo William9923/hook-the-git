@@ -14,7 +14,7 @@ In this repo, I present to you 4 types of hook that i like to use (pre-commit, c
 In this repo, there are 4 hooks that I implemented for Golang (could be used for other programming languange too):
 - pre-commit: Used to apply gofmt & goimports before committing the code.
 - commit-msg: Used to check the format of commit message before commit. Will fail if not suitable from predetermined template
-- pre-push: Used to check with unit test before pushing items into remote repo. But, will pass if commit message contains WIP (work in progress)
+- pre-push: Used to check with unit test before pushing items into remote repo. But, will pass if commit message contains WIP (work in progress). Also, prevent from accidental push to master.
 - post-checkout: Used to perform dependencies check (vendor, etc) when switching branch.
 
 ## Prerequisites
