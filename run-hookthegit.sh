@@ -2,6 +2,6 @@
 
 echo "Starting..."
 
-go run ./cmd/ping
+go run ./cmd/...
 
 echo "Finish program ..."
