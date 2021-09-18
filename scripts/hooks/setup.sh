@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Available git hooks
-HOOK_NAMES="applypatch-msg pre-applypatch post-applypatch pre-commit prepare-commit-msg commit-msg post-commit pre-rebase post-checkout post-merge pre-receive update post-receive post-update pre-auto-gc pre-push"
+HOOK_NAMES="pre-commit commit-msg post-checkout pre-push"
 
 # assuming the script is in a bin directory, one level into the repo
 ROOT_DIR=$(git rev-parse --show-toplevel)
