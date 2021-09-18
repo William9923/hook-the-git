@@ -27,6 +27,4 @@ for hook in $HOOK_NAMES; do
 
 done
 
-
-
 echo "done setting up git hooks"
